@@ -11,9 +11,9 @@ public interface IClienteService {
 	
 	Cliente findByCodigo(Long codigo);
 	
-	Cliente findByNome(String nome);
+	List <Cliente> findByNome(String nome);
 	
-	Cliente findByCpf(Integer cpf);
+	Cliente findByCpf(Long cpf);
 	
 	Cliente salvar(ClienteDto dto);
 	

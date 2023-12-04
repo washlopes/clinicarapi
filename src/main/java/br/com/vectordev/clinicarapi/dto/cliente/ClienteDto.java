@@ -2,7 +2,6 @@ package br.com.vectordev.clinicarapi.dto.cliente;
 
 import java.time.LocalDate;
 
-import br.com.vectordev.clinicarapi.modelo.cliente.Convenio;
 import br.com.vectordev.clinicarapi.modelo.cliente.Cor;
 import br.com.vectordev.clinicarapi.modelo.cliente.EstadoCivil;
 import br.com.vectordev.clinicarapi.modelo.cliente.Sexo;
@@ -23,7 +22,7 @@ public class ClienteDto {
 	
 	private String nome;
 	
-	private Integer cpf;
+	private Long cpf;
 	
 	private Cor cor;
 	

@@ -36,7 +36,7 @@ public class Cliente implements Serializable {
 	
 	private String nome;
 	
-	private Integer cpf;
+	private Long cpf;
 	
 	@Enumerated(EnumType.STRING)
 	private Cor cor;
